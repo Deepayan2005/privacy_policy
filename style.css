@@ -1,0 +1,93 @@
+.heading{
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.fontStyle{
+    font-size: 22px;
+    font-family: Calibri;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.topic{
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: Calibri;
+}
+.information{
+    font-size: 23px;
+    font-family: Calibri;
+}
+.date{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    font-family: Calibri;
+}
+.textContainer{
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+}
+.icon{
+    width: 30%;
+    height: 30%;
+    margin: 10px;
+}
+.container{
+    padding: 5px;
+    margin: 5px;
+    width: 70%;
+    box-shadow: rgb(145, 188, 245) 0px 0px 20px 0px;
+    display: flex;
+    
+    background-color: white;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    .container{
+        width: 95%;
+        padding: 5px;
+        margin: 5px;
+    }
+    .topic{
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: Calibri;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .information{
+        font-size: 17px;
+        font-family: Calibri;
+    }
+    .icon{
+        
+        width: 50%;
+        height: 50%;
+        margin: 5px;
+    }
+    .heading{
+        font-size: 25px;
+        text-align: center;
+    }
+    .date{
+        font-size: 20px;
+    }
+    .fontStyle{
+        font-size: 18px;
+    }
+    
+  }
